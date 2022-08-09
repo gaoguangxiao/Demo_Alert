@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Demo_Alert' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Demo_Alert
+ pod "SnapKit"
+ 
+  target 'Demo_AlertTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Demo_AlertUITests' do
+    # Pods for testing
+  end
+
+end
